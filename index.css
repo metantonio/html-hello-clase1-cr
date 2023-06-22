@@ -1,41 +1,13 @@
-body {
-    background: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    padding: 10%;
-    box-sizing: border-box;
+.borde-azul {
+    border: 4px solid rgb(67, 67, 163) !important;
+}
+.borde-verde {
+    border: 4px solid rgb(41, 223, 83);
+}
+.borde-amarillo {
+    border: 4px solid rgb(220, 227, 39);
 }
 
-.post {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-content: center;
-    background: white;
-}
-
-.header {
-    width: 100%;
-    border: 1px solid green;
-    display:inline-flex;
-    flex-flow: row nowrap;
-    padding: 8px;
-}
-.title {
-    width: 50%;
-    border: 2px solid red;
-}
-
-.icon-ellipse {
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    padding: 0px 5px 0px 0px;
-    border: 2px solid yellow;
+.fondo-verde {
+    background-color: rgb(123, 237, 29);
 }
